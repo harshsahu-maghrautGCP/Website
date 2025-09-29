@@ -28,9 +28,11 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
+            {/* <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-xl"> <img src="/public/logo.jpg" alt="" /> </span>
+            </div> */}
+
+            <span className="text-white font-bold text-xl"> <img src="/logo.jpg" alt="Maghraut Technologies" className="h-10 w-auto" /> </span>
             <div>
               <h1 className="text-xl font-bold text-gray-800 font-merriweather">
                 {companyInfo.name}
